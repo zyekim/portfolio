@@ -1,0 +1,111 @@
+@charest('utf-8');
+@import url("common.css");
+
+/**************************
+파일명: style.css
+작성자: zyezye
+작성일자:2020-06-22
+****************************/
+
+
+
+
+
+/*layout*/
+
+	#header {width:100%;background-color: #fff;position:fixed;z-index:99999}
+	#header .hinner {width:1250px;margin:0 auto;height:150px;position:relative;}
+	#container{width:100%;}
+	#footer {width:100%;margin-top:20px}
+	#footer:after {content:'';clear:both;display:block;padding:0;margin:0}
+
+
+
+
+/*header*/
+	#header .hinner .hlogo{position:absolute;left:1%;top:20%}
+	#header .hinner .hlogo img {width:180px;height:50px}
+	
+	#header .hinner .hlnb {position:absolute;right:2%;top:7%;}
+	#header .hinner .hlnb ul li {;color:#b1b1b1;display:inline-block;font-size:1.2rem;}
+	#header .hinner .hlnb ul li:after {content:'|';padding:0 3px} 
+	#header .hinner .hlnb ul li:last-child:after {content:'';display:inline-block;padding:0;margin:0} 
+	#header .hinner .hlnb ul li a {;color:#999;font-weight:400}
+	#header .hinner .hlnb ul li a:hover {color:#000;text-decoration:underline}
+
+	#header .hinner .obtn1 {width:170px;height:35px;position:absolute;right:2%;top:28%}
+	#header .hinner .obtn1 a{display:block;}
+	#header .hinner .obtn1 a  img {width:100%;height:35px}
+  
+  /*메인메뉴*/
+	#header .hinner #hWrap {height:50px;position:absolute;top:30%;width:100%}
+	#hWrap #mheader{position:relative;height:50px}
+	#mheader #gnb {position:absolute;left:0;top:40px;z-index:30;width:100%;box-sizing:border-box;background:#fff } 
+	#mheader #gnb nav{ position:relative;text-align:center;font-size:0;}
+	#mheader #gnb nav > ul {height:50px;overflow:hidden; text-align:center;display:inline-block;}
+	#mheader #gnb nav > ul:hover {overflow:visible;} 
+	#mheader #gnb nav > ul > li {display:inline-block;margin:0 10px;position:relative;}
+	#mheader #gnb nav > ul > li > a{font-weight:bold;width:130px;height:61px;display:block;font-size:20px;color:#222;line-height:60px;position:relative}
+	#mheader #gnb nav > ul > li > a:after {content:'';width:0;position:absolute;left:50%;
+		bottom:5px;height:2px;transition:all 0.5s;background:#015077}
+	#mheader #gnb nav > ul > li:hover > a:after{left:0;width:100%}
+	#mheader #gnb nav > ul ul {transition:all 0.5s;
+	opacity:0;display:none ;/* height:235px; */position:absolute;text-align:center;
+	width:100%;padding:12px 0 0;display:none}
+	#mheader #gnb nav > ul:hover ul {display:block;opacity:1}
+	#mheader #gnb nav > ul ul li {line-height:30px}
+	#mheader #gnb nav > ul ul a{transition:all 0.5s;position:relative;font-size:15px;color:#222;display:block}
+	#mheader #gnb nav > ul ul a:hover {background-color: #ebebeb;}
+
+	
+  
+  /*visual*/	
+	#visual {padding-top:150px;width:1250px;margin:0 auto;position:relative;height:464px;overflow:hidden}
+	#visual .vslider li{float:left}
+	#visual .vslider button {position:absolute;z-index:10;top:40%;
+	;width:45px;height:55px;background: rgba(0,0,0,0.32);border:0;outline:none;cursor:pointer;z-index: 1}
+	#visual .vslider button:before {color:#fff;font-size:4rem;text-align:center;font-family:"xeicon"}
+	#visual .vslider img {width:100%}
+	#visual .vslider .slick-prev  {left:1%;color:transparent;font-size:0}
+	#visual .vslider .slick-prev:before {content: "\e93d"}
+	#visual .vslider .slick-next  {right:1%;color:transparent;font-size:0}
+	#visual .vslider .slick-next:before {content:"\e940"}  
+	#visual .vslider .slick-dots {display:flex;padding:17px 0;justify-content:center;z-index: 1}
+	#visual .vslider .slick-dots li{margin:0 13px}
+	#visual .vslider .slick-dots button {padding:0;margin:0;font-size:0;color:transparent;top:83%;margin:0;background:rgba(250,250,250,0.8);border-radius:50%;width:16px;height:16px}
+	#visual .vslider .slick-dots li.slick-active button{background:rgba(0,0,0,0.7);z-index: -10}
+
+
+/*container*/
+
+
+
+ 
+	
+ /*event*/
+ 	#container .cont5 {width:1250px;margin:30px auto;position:relative;}
+	#container .cont5:after {content:'';clear:both;display:block;}
+	#container .cont5 .c5tit {text-align:center;margin-bottom:30px;font-size:3.3rem}
+	#container .cont5 ul {width:80%;margin:0 auto}
+	#container .cont5 ul li {float:left;width:32%;margin-right:1%}
+	#container .cont5 ul li img {width:100%}
+	#container .cont5 ul li:last-child:after {content:'';clear:both;margin:0}
+ 
+	/*하단 메뉴 바 */
+	#container .munder  {display:none ;position:fixed;bottom:0;left:0;z-index:9999;width:100%;}
+	#container .munder ul {position: relative; display: flex;
+    flex-wrap: wrap;    width: 100%;    background: #015077;    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 0;}
+	#container .munder  ul li {display: flex;flex: 0 0 20%;align-items: flex-end;height: 70px;vertical-align: middle;text-align: center;}
+	#container .munder  ul li > a{position: relative;display: block;width: 100%;height: 100%;}
+	#container .munder  ul li a > .minner {display: inline-block;width: 100%;position: absolute;bottom: 10px;left: 50%;transform: translateX(-50%);} 
+	 #container .munder  ul li a > .minner img {display: inline-block;height: 25px;vertical-align: middle;}
+	 #container .munder  ul li a > .minner span{display:block;	font-size: 1.2rem;color: #fff;margin-top:10px}
+
+	 #container .munder  ul li:nth-child(3) a {position: absolute;top: -30px;	left: 50%;transform: translateX(-50%);width: 70px;height: 65px;background: #ff143c;border-radius: 100%;
+		padding-top: 13px;}
+	
+	#container .munder  ul li:nth-child(3) a > .minner{position: relative;bottom: inherit;left: 0;transform: none;}
+
+
+  

@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8" />
+	<title>login</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+	<link rel="stylesheet" href="css/join.css" />
+	<script src="js/jquery-1.11.2.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ 
+</head>
+<body>
+	<div id="body">
+	<dl class="skip">
+	 <dt class="blind">skip navigation</dt>	
+	 <dd>
+	  <a href="#contents">skip to Contents</a>
+	 </dd>
+	</dl>
+
+	<div id="header">
+		<div class="gnb">
+	
+		<a class='tmenu' href="#" ><img src="img/menu.png" alt="menu"></a>
+
+ 			 <nav class="main-nav">
+			 <p class='menuClose'><a href="#"><img src="img/turn.png" alt="되돌아가기버튼"></a></p>
+						<ul class="main-nav-ul">
+							
+							<li><a href="#"><strong>제품</strong></a>
+									<ul class='main-nav-li'>
+										<li><a href="#">베스트</a></li>
+										<li><a href="#">신제품</a></li>
+										<li><a href="#">베쓰</a></li>
+										<li><a href="#">샤워</a></li>
+										<li><a href="#">바디</a></li>
+										<li><a href="#">페이스</a></li>
+										<li><a href="#">헤어</a></li>
+										<li><a href="#">메이크업</a></li>
+										<li><a href="#">퍼퓸</a></li>
+										<li><a href="#">기프트</a></li>
+						         </ul>
+					      </li>
+						<li><a href="#"><strong>브랜드</strong></a>
+							<ul class='main-nav-li'>
+							<li ><a href="#">더바디샵?</a></li>
+							</ul>
+						</li>
+							<li class='event'><a href="#"><strong>이벤트</strong></a>
+							<ul class='main-nav-li'>
+								<li><a href="#">공병으로 환경지키기</a></li>
+								<li><a href="#">동물보호단체 수익금기부</a></li>
+							</ul>
+						</li>
+						<li><a href="login.html"><strong>로그인</strong></a></li>
+						<li><a href="join.html"><strong>회원가입</strong></a></li>
+						<li><a href="store_1.html"><strong>매장안내</strong></a></li>
+
+					</ul><!-- main-nav-ul -->
+
+			</nav><!-- nav -->
+			   
+
+
+
+<h1 class='logo'><a href="index.html"><img src="img/logo.png" alt="logo"></a></h1>
+<a class='search' href="#" ><img src="img/search.png" alt="search"></a>
+<a class='cart' href="#" ><img src="img/cart.png" alt="search"></a>
+
+</div><!-- gnb -->
+			<div class="lnb">
+				<ul>
+					<li><a href="#">스킨케어</a></li>
+					<li><a href="#">바디케어</a></li>
+					<li><a href="#">헤어케어</a></li>
+					<li><a href="#">향수</a></li>
+					<li><a href="#">선물하기</a></li>	
+				</ul>
+			</div>
+		</div>
+
+		
+<div class="searchbox">
+
+					<a class='Close' href="#"><img src="img/turn1.png" alt="되돌아가기버튼"></a>
+
+							<div class="search1">
+
+							
+								<div class='ss'>
+								<input type="text" placeholder='검색' name='search'  class="search2"
+								
+								 maxlength="55" style="background-color:transparent;" ></div>
+
+								<div>
+								<input type="image" src="img/search2.png" alt="검색버튼" class='button'>
+								</div>
+		
+
+								</div><!--search1 -->	
+
+	
+
+							
+
+							
+
+			<!--인기검색어 최근검색어 -->
+	
+
+				 <div class="container">
+
+	<ul class="tabs">
+		<li class="tab-link current" data-tab="tab-1">인기검색어</li>
+		<li class="tab-link" data-tab="tab-2">최근검색어</li>
+
+	</ul>
+
+	<div id="tab-1" class="tab-content current">
+	<p># 티트리</p>
+	<br>
+	<p># 선물세트</p>
+
+	</div>
+	<div id="tab-2" class="tab-content">
+	<p>최근검색어가 없습니다.</p>
+	</div>
+			</div><!-- searchbox -->
+
+							
+
+ 
+
+</div>
+
+	<!-- login container -->
+   <section id="container3">
+	  <h1>회원가입</h1>
+     <img class="icon" src="img/join.png" alt="icon" />
+
+	  <p>환영합니다 <br> 더 다양한 혜택을 누리세요</p>	
+	  <ul class="proc">
+	  	<li>01.이용약관</li>
+	  	<li>02.본인인증</li>
+	  	<li>03.정보입력</li>
+	  </ul>
+
+	  <div class="memo">
+	   <p class="memotit">더 바디샵 회원 약관 동의</p>
+		<br>
+		<p>회원가입 및 정상적인 서비스 이용을 위해 아래 약관을 읽어보시고,<br> 동의여부를 결정해 주세요.<br> 필수약관을 동의하셔야 회원가입이 가능합니다.</p>
+	  </div>
+	  <form action="#" name="frm">
+	    <div class="allagr">
+		  <input type="checkbox" name="all" id="all" onclick="allCheck()"/>
+		  <label for="all">전체동의</label>
+		 </div>
+		 <div class="text1">
+		    <div class="agr1">
+		   <input type="checkbox" name="agree1" id="agree1"/>
+			<label for="agree1">서비스 이용약관(필수)</label>	
+		  </div>
+		  <textarea>
+제1조 (목적)
+이 약관은 ㈜비에스케이코퍼레이션 사이트(전자상거래 사업자)가 운영하는 더바디샵사이버몰(thebodyshop.co.kr,이하 몰이라고 한다)에서 제공하는 인터넷 관련 서비스(이하 “서비스”라 한다)를 이용함에 있어 사이버 몰과 이용자의 권리·의무 및 책임사항을 규정함을 목적으로합니다.이하 “서비스”라 한다)를 이용함에 있어 사이버 몰과 이용자의 권리의무 및 책임사항을 규정함을 목적으로 합니다.
+                 
+제2조 (정의)
+①   “몰” 이란 ㈜비에스케이코퍼레이션이 재화 또는 용역(이하 “재화 등”이라 함)을 이용자에게 제공하기 위하여 컴퓨터 등 정보통신설비를 이용하여 재화 등을 거래할 수 있도록 설정한 가상의 영업장을 말하며, 아울러 사이버몰을 운영하는 사업자의 의미로도 사용합니다.
+②   “이용자”란 “몰”에 접속하여 이 약관에 따라 “몰”이 제공하는 서비스를 받는 회원 및 비회원을 말합니다.
+③   ‘회원’이라 함은 “몰”에 개인정보를 제공하여 회원등록을 한 자로서, “몰”의 정보를 지속적으로 제공받으며, “몰”이 제공하는 서비스를 계속적으로 이용할 수 있는 자를 말합니다.
+④   ‘비회원’이라 함은 회원에 가입하지 않고 “몰”이 제공하는 서비스를 이용하는 자를 말합니다. 
+
+제3조 (약관 등의 명시와 설명 및 개정)
+①   “몰”은 이 약관의 내용과 상호 및 대표자 성명, 영업소 소재지 주소(소비자의 불만을 처리할 수 있는 곳의 주소를 포함), 전화번호•모사전송번호•전자우편주소, 사업자등록번호, 통신판매업신고번호, 개인정보관리책임자 등을 이용자가 쉽게 알 수 있도록 Cathkidston 사이버몰의 초기 서비스화면(전면)에 게시합니다. 다만, 약관의 내용은 이용자가 연결화면을 통하여 볼 수 있도록 할 수 있습니다.
+②   “몰은 이용자가 약관에 동의하기에 앞서 약관에 정하여져 있는 내용 중 청약철회배송책임환불조건 등과 같은 중요한 내용을 이용자가 이해할 수 있도록 별도의 연결화면 또는 팝업화면 등을 제공하여 이용자의 확인을 구하여야 합니다.
+③   “몰”은 전자상거래등에서의소비자보호에관한법률, 약관의규제에관한법률, 전자거래기본법, 전자서명법, 정보통신망이용촉진등에관한법률, 방문판매등에관한법률, 소비자보호법 등 관련법을 위배하지 않는 범위에서 이 약관을 개정할 수 있습니다.
+④   “몰”이 약관을 개정할 경우에는 적용일자 및 개정사유를 명시하여 현행약관과 함께 몰의 초기화면에 그 적용일자 7일 이전부터 적용일자 전일까지 공지합니다. 다만, 이용자에게 불리하게 약관내용을 변경하는 경우에는 최소한 30일 이상의 사전 유예기간을 두고 공지합니다. 이 경우 "몰“은 개정 전 내용과 개정 후 내용을 명확하게 비교하여 이용자가 알기 쉽도록 표시합니다.
+⑤   “몰”이 약관을 개정할 경우에는 그 개정약관은 그 적용일자 이후에 체결되는 계약에만 적용되고 그 이전에 이미 체결된 계약에 대해서는 개정전의 약관조항이 그대로 적용됩니다. 다만 이미 계약을 체결한 이용자가 개정약관 조항의 적용을 받기를 원하는 뜻을 제3항에 의한 개정약관의 공지기간 내에 ‘몰’에 송신하여 ‘몰’의 동의를 받은 경우에는 개정약관 조항이 적용됩니다.
+⑥   이 약관에서 정하지 아니한 사항과 이 약관의 해석에 관하여는  전자상거래등에서의소비자보호에관한법률, 약관의규제등에관한법률, 공정거래위원회가 정하는 전자상거래등에서의소비자보호지침 및 관계법령 또는 상관례에 따릅니다. 
+
+
+제4조 (서비스의 제공 및 변경)
+①   “몰”은 다음과 같은 업무를 수행합니다.
+1.  재화 또는 용역에 대한 정보 제공 및 구매계약의 체결
+2.  구매계약이 체결된 재화 또는 용역의 배송
+3.  기타 “몰”이 정하는 업무
+②   “몰”은 재화 또는 용역의 품절 또는 기술적 사양의 변경 등의 경우에는 장차 체결되는 계약에 의해 제공할 재화 또는 용역의 내용을 변경할 수 있습니다. 이 경우에는 변경된 재화 또는 용역의 내용 및 제공일자를 명시하여 현재의 재화 또는 용역의 내용을 게시한 곳에 즉시 공지합니다.
+③   “몰”이 제공하기로 이용자와 계약을 체결한 서비스의 내용을 재화 등의 품절 또는 기술적 사양의 변경 등의 사유로 변경할 경우에는 그 사유를 이용자에게 통지 가능한 주소로 즉시 통지합니다.
+④   전항의 경우 “몰”은 이로 인하여 이용자가 입은 손해를 배상합니다. 다만, “몰”이 고의 또는 과실이 없음을 입증하는 경우에는 그러하지 아니합니다. 
+
+제5조 (서비스의 중단)
+①   “몰”은 컴퓨터 등 정보통신설비의 보수점검교체 및 고장, 통신의 두절 등의 사유가 발생한 경우에는 서비스의 제공을 일시적으로 중단할 수 있습니다.②   “몰”은 제1항의 사유로 서비스의 제공이 일시적으로 중단됨으로 인하여 이용자 또는 
+제3자가 입은 손해에 대하여 배상합니다. 단, “몰”이 고의 또는 과실이 없음을 입증하는 경우에는 그러하지 아니합니다.
+③   사업종목의 전환, 사업의 포기, 업체간의 통합 등의 이유로 서비스를 제공할 수 없게 되는 경우에는 “몰”은 제8조에 정한 방법으로 이용자에게 통지하고 당초 “몰”에서 제시한 조건에 따라 소비자에게 보상합니다. 다만, “몰”이 보상기준 등을 고지하지 아니한 경우에는 이용자들의 마일리지 또는 적립금 등을 “몰”에서 통용되는 통화가치에 상응하는 현물 또는 현금으로 이용자에게 지급합니다.
+
+
+
+		  </textarea>
+		  </div>	
+		
+		 <br>
+		 <div class="text2">
+		  <div class="agr2">
+		   <input type="checkbox" name="agree2" id="agree2"/>
+			<label for="agree2">개인정보수집 및 이용목적에 대한 동의 (필수)</label>	
+		  </div>		
+		  <textarea>
+비에스케이코퍼레이션 주식회사(이하 “회사”)가 더바디샵 사이버 몰 이용자로부터 수집하는 개인정보의 항목, 개인정보의 수집 및 이용목적, 개인정보의 보유 및 이용기간을 안내 드리오니 자세히 읽은 후 동의하여 주시기 바랍니다. 이용하는데 있어, 본인확인, 원활한 서비스 제공 및 주문 접수, 물품 배송, 대금 결제, 회원님에 게 유용한 맞춤정보 제공 등을 위하여 필요한 최소한의 개인정보를 필수 사항으로 수집합니다. 
+
+제1항 수집하는 개인정보 항목 및 수집방법
+
+ 1.수집하는 개인정보 항목
+ 회사는 회원가입, 원활한 고객상담 및 서비스 제공 등을 위해 아래와 같은 개인정보를 수집하고 있습니다.
+
+    ①.이름, 생년월일, 성별, 로그인ID, 비밀번호, 자택 전화번호, 자택 주소, 휴대전화번호, 이메일, 또한 서비스 이용과정이나 사업처리 과정에서 아래와 같은 정보들이 생성, 수집될 수 있습니다.
+
+    ②.서비스 이용기록, 접속 로그, 쿠키, 접속IP 주소, 결제기록
+
+2.개인정보 수집방법
+ 회사는 아래와 같은 방법으로 개인정보를 수집합니다.
+
+    ①.홈페이지, 팩스, 전화, 상담게시판, 이벤트 응모, 상품구매, 배송요청
+
+제2항 개인정보의 수집 및 이용목적
+
+ 1.서비스 제공에 관한 계약 이행 및 서비스 제공에 따른 요금 정산 콘텐츠 제공, 구매 및 요금 결제, 물품배송 또는 청구지 등 발송 
+
+ 2.회원 관리 
+ 회원제 서비스 이용에 따른 본인확인, 개인 식별, 불량회원의 부정 이용 방지와 비인가 사용 방지, 가입 의사 확인, 연령확인, 불만처리 등 민원처리, 고지사항 전달
+
+ 3.마케팅 및 광고에 활용 
+ 신규 서비스(제품) 개발 및 특화, 이벤트 등 광고 성 정보 전달, 인구통계학적 특성에 따른 서비스 제공 및 광고 게재, 접속 빈도 파악 또는 회원의 서비스 이용에 대한 통계
+
+제3항 개인정보의 보유 및 이용기간
+
+ 원칙적으로, 개인정보 수집 및 이용목적이 달성된 후에는 해당 정보를 지체 없이 파기합니다. 단, 관계법령의 규정에 의하여 보존할 필요가 있는 경우, 회사는 아래와 같이 관계법령에서 정한 일정한 기간 동안 회원정보를 보관합니다. 
+
+ 1.보존 항목 
+ 이름, 생년월일, 성별, 로그인ID, 자택 전화번호, 자택 주소, 휴대전화번호, 이메일, 서비스 이용기록, 접속 로그, 쿠키, 접속 IP 주소, 결제기록 
+
+ 2.보존 근거 
+ 전자상거래 등에서의 소비자보호에 관한 법률 
+
+ 3.보존 기간
+ 계약에 관한 기록: 5년 
+ 대금결제 및 재화 등의 공급에 관한 기록: 5년 
+ 소비자의 불만 또는 분쟁처리에 관한 기록: 3년
+
+		  </textarea>
+		  </div>	
+		 
+
+	      
+	  </form>
+	  <div class="agrBtn">
+			 
+			 <div><a href="#" onclick="javascript:frm.reset();return false;">동의하지않음</a></div>   
+			 <div onclick="check()">동 &nbsp;&nbsp;&nbsp;&nbsp;의</div>
+		</div>
+	</section>
+	<!-- container end -->
+
+
+	
+	<div id="footer">
+		 <div id="totop" class="scrolltop">
+		   <a href="#"><img src="img/totopbk.png" alt="top" /></a>
+			<!-- id=body의 시작으로 올라감  top이라고 해도된다.-->
+	</div><!-- totop end -->
+
+		<div class="familysite">
+		  <ul>
+			<li><a href="login.html">로그인</a></li>
+			<li><a href="#">고객만족센터</a></li>
+			<li><a href="#">회사소개</a></li>
+		  </ul>
+		 </div>
+		  <div class="sns">
+		  <ul>
+			<li><a href="#">페이스북</a></li>
+			<li><a href="#">인스타</a></li>
+			<li><a href="#">카카오톡</a></li>
+			<li><a href="#">유튜브</a></li>
+		  </ul>
+		 </div>
+		 
+		 <div class="info">
+		  <ul>
+			<li>대표이사:박종호 서울시 강남구 학동로 401 13층 </li>
+			<li>고객센터 080-759-7700 팩스 02-759-0788</li>
+			<li>통신판매업신고번호 제 2010-서울강남-02017호 3</li>
+			<li><a href="#">사업자정보확인</a> <a href="#">온라인이용약관</a></li>
+			<li>호스팅 사업자 (주)비에스케이코퍼레이션</li> 
+			<li>개인정보관리책임자:오미경 사업자등록번호 116-81-62784</li>
+		  </ul>
+		 
+		 </div>
+	</div><!-- footer end -->
+  </div><!-- body end -->		
+	<!-- script link -->
+   <script src="js/common.js"></script>
+	<script >
+//약관동의
+function check(){
+ var frm = document.frm;
+ if(!frm.agr1.checked){
+  alert("약관에 동의하세요!");
+  frm.agree1.focus();
+  return;
+ }
+ if(!frm.agr2.checked){
+  alert("개인정보에 동의하세요!");
+  frm.agree2.focus();
+  return;
+ }
+ location.href = "#"; 
+}
+
+function allCheck(){
+ with(document.frm){
+  if(all.checked){
+   for(var i=0;i<length;i++){
+    if(elements[i].type == "checkbox"){
+     elements[i].checked = true;
+    }
+   }
+  }else{
+   for(var i=0;i<length;i++){
+    if(elements[i].type == "checkbox"){
+     elements[i].checked = false;
+    }
+   }
+  }
+ }
+}
+	
+$(document).ready(function(){
+	
+	$('ul.tabs li').click(function(){
+		var tab_id = $(this).attr('data-tab');
+
+		$('ul.tabs li').removeClass('current');
+		$('.tab-content').removeClass('current');
+
+		$(this).addClass('current');
+		$("#"+tab_id).addClass('current');
+	})
+
+})
+
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+	<link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+   <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<script src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<script src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>    
+  <script src="js/script.js"></script>
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+
+    <script src="js/script.js"></script>
+    <title>도미노피자</title>
+</head>
+<body>
+    <div id="skip">
+		<strong class="blind">반복영역 건너뛰기</strong> 
+		<ul>
+			<li><a href="#container">본문 바로가기</a></li>
+			<li><a href="#mheader">상단메뉴 바로가기</a></li>
+		</ul>
+	</div>
+    <header id="header">
+       <div class="hinner">
+        <h1 class="hlogo"><a href="index.html"><img src="img/md-logo.png" alt="상단로고"></a></h1>
+        <h1 class="mlogo"><a href="index.html"><img src="img/smlogo.png" alt="상단로고/모바일"></a></h1>
+        <nav class="hlnb">
+            <ul>
+                <li><a href="#">로그인</a></li>
+                <li><a href="#">고객센터</a></li>
+                <li><a href="#">인재채용</a></li>
+                <li><a href="#">신규점포제안</a></li>
+            </ul>
+        </nav>
+
+        <p class="obtn1"><a href="#" class=""><img src="img/md-order.png" alt="온라인버튼1"></a></p>
+        <p class="obtn2"><a href="#" class=""><img src="img/sm-order.png" alt="온라인버튼2"></a></p>
+        <!-- 메인메뉴 -->
+        <div id="hWrap">
+            <div id="mheader">
+                <div id="gnb">
+                   <nav class="glist">
+                    <ul> 
+                       <li class="main"><a href="#">메뉴소개</a>
+                        <ul class="sub">
+                            <li><a href="#">신제품</a></li>
+                            <li><a href="#">하프앤하프</a></li>
+                            <li><a href="#">사이드디시</a></li>
+                            <li><a href="#">인기세트메뉴</a></li>
+                            <li><a href="#">마이토핑</a></li>
+                         </ul>
+                       </li><!-- 메뉴소개 end -->
+  
+                       <li class="main"><a href="#">매장안내</a>
+                        <ul class="sub">
+                          <li><a href="#">매장찾기</a></li>
+                          <li><a href="#">영업시간안내</a></li>
+                          <li><a href="#">매장별 할인</a></li>
+                        </ul>
+                      </li><!-- 매장안내 end -->
+  
+                      <li class="main"><a href="#">이벤트제휴</a>
+                        <ul class="sub">
+                          <li><a href="#">이벤트 안내</a></li>
+                          <li><a href="#">제휴 이벤트</a></li>
+                          <li><a href="#">할인 이벤트</a></li>
+                          <li><a href="#">멤버쉽 할인</a></li>
+                        </ul>
+                      </li><!-- 이벤트제휴 end -->
+  
+                      <li class="main"><a href="#">e-쿠폰</a>
+                        <ul class="sub">
+                          <li><a href="#">쿠폰 등록</a></li>
+                          <li><a href="#">구매/선물하기</a></li>
+                          <li><a href="#">고객센터</a></li>
+                       </ul>
+                      </li><!-- e쿠폰 end -->                       
+                    </ul> 
+                   </nav>
+                   </div><!-- gnb end -->
+              </div><!-- mheader end -->
+        </div><!-- hWrap -->
+         <!-- 모바일메뉴 -->
+         <h2><a href="#" class="mg_btn" >모바일</a></h2>
+         <div class="mgnb">
+              
+          <nav>
+			  <p class="close"><i class="xi-close"></i>닫기</p>
+               <ul class="gnblist">
+                     <li class="main"><a href="#">메뉴소개</a>
+                      <ul class="sub">
+                         <li><a href="#">신제품</a></li>
+                         <li><a href="#">하프앤하프</a></li>
+                         <li><a href="#">사이드디시</a></li>
+                         <li><a href="#">인기세트메뉴</a></li>
+                         <li><a href="#">마이토핑</a></li>
+                      </ul>
+                     </li>
+                     <li class="main"><a href="#">매장안내</a>
+                       <ul class="sub">
+                         <li><a href="#">매장찾기</a></li>
+                         <li><a href="#">영업시간안내</a></li>
+                         <li><a href="#">매장별 할인</a></li>
+                       </ul>
+                     </li>
+                     <li class="main"><a href="#">이벤트제휴</a>
+                       <ul class="sub">
+                         <li><a href="#">이벤트 안내</a></li>
+                         <li><a href="#">제휴 이벤트</a></li>
+                         <li><a href="#">할인 이벤트</a></li>
+                         <li><a href="#">멤버쉽 할인</a></li>
+                       </ul>
+                     </li>
+                     <li class="main"><a href="#">e-쿠폰</a>
+                       <ul class="sub">
+                         <li><a href="#">쿠폰 등록</a></li>
+                         <li><a href="#">구매/선물하기</a></li>
+                         <li><a href="#">고객센터</a></li>
+                      </ul>
+                     </li>
+                 </ul>
+              </nav>    
+           </div><!-- mgnb end -->
+           <script>
+   //slidetoggle
+       var mmain =$('.gnblist> .main');
+			  var msub = $('.main > ul.sub');
+
+			  mmain.click(function(){				
+    
+				$(msub).slideUp();
+				$(this).children('.sub').stop().slideToggle();
+					
+			
+			  });
+
+           </script>
+        </div> <!-- hinner -->
+    </header>
+    <section id="visual">
+        <div class="md">
+			 <ul class="vslider">
+				 <li><a href="#"><img src="img/dv1.jpg" alt="제작" /></a></li>
+				 <li><a href="#"><img src="img/dv2.jpg" alt="오리진" /></a></li>
+				 <li><a href="#"><img src="img/dv3.jpg" alt="오리진" /></a></li>
+
+			 </ul><!-- vslider end-->
+		  
+
+      </div><!-- img_box end-->
+   
+      <h2 class="blind">모바일 비쥬얼</h2>
+             <div class="m_visual">
+              <ul class="vslider">
+                   <li><a href="#"><img src="img/mv1.jpg" alt="제작" /></a></li>
+                   <li><a href="#"><img src="img/mv2.jpg" alt="수정" /></a></li>
+                   <li><a href="#"><img src="img/mv3.png" alt="수정" /></a></li>
+               </ul><!-- vslider end-->
+              </div><!-- m_visual end -->
+	       
+       </section><!-- visual end-->
+       <script>
+        $(".vslider").slick({
+          dots: true,
+          infinite: true,
+          autoplay:true,
+          autoplaySpeed:2000,
+          });
+         $('.play').on('mouseenter',function(){
+           $('.vslider').slick('slickPlay');
+         });
+         $('.pause').on('mouseleave',function(){
+           $('.vslider').slick('slickPause');
+         });
+  
+  
+         </script>
+       <section id="container">
+            <div class="cont1">
+             <div class="deli">
+                <a href="deli.html">
+
+                    <i class="icon"><img src="img/deli.png" alt="배달주문"></i>
+                    <span class="c1tit">배달주문</span>
+                    <span class="c1sub">등급별 최대 40%할인</span>
+
+                </a>
+             </div><!-- deli end -->
+             <div class="togo">
+                <a href="togo.html">
+                  <i class="icon"><img src="img/togo.png" alt="포장"></i>
+                  <span class="c1tit">포장주문</span>
+                  <span class="c1sub">등급별 최대 30%할인</span>
+                </a>
+             </div><!-- togo end -->
+            </div><!-- cont1 end -->
+   
+        
+             <div class="cont2" id="order" >
+        
+               <h3 class="c2tit">도미노 피자만의</h3>
+               <p class="c2sub">더 다양한 주문을 경험해 보세요!</p>
+               <div id="olist" >
+                   <div>
+                     <p class="otxt">빠르고 간편하게</p>
+                     <h4 class="otit"><a href="#">도미챗주문</a> </h4>
+                   </div>
+                   <div>
+                     <p class="otxt">즐겨 찾는 메뉴를 바로</p>
+                     <h4 class="otit"><a href="#">퀵오더</a></h4>
+                   </div>
+                   <div class="olist3">
+                     <p class="otxt">차 안에서 픽업</p>
+                     <h4 class="otit"><a href="#">드라이빙 픽업</a> </h4>
+                    </div>
+                   <div >
+                     <p class="otxt">내주변, 단골 매장은?</p>
+                     <h4 class="otit"><a href="#">매장 찾기</a></h4>
+                   </div>
+               </div><!-- olist end -->
+            </div><!-- cont2 end -->
+            <div class="cont3">
+             <!-- 가로 100% -->
+				 <div class="c3inner">
+				   <div class="c3info">
+						<p class="c3sub">마침내, 스윗한 칠리크랩을 피자로<br>씨푸드부터 시리얼까지 모든것이 새롭다</p>
+						<p class="c3tit">'크랩이 만렙이야'</p>
+						<p class="c3txt">#도미노피자 #도미노 #시리얼칠리크랩</p>
+				   </div> <!-- c3info end -->
+				   <div class="video">
+						<iframe class="video1" src="https://www.youtube.com/embed/OX1jWl2V6gY?rel=0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				   </div><!-- video end -->
+				 </div><!-- c4inner end -->
+            </div><!-- cont4 end -->
+	 
+            <div class="cont4">
+			  <!-- 가로 100% -->
+				 <div class="c4inner">
+				 <a href="#">
+           <h4 class="c4tit">주변 매장 바로 찾기</h4>
+           <p class="c4number"> 1577-3082</p>
+					 <p class="c4sub">고객센터 운영시간 안내 10:00-22:00/연중무휴(매장별로 상이할수 있습니다)</p>
+				 </a>
+            </div><!-- c4inner end -->
+            </div><!-- cont4 end -->
+		     <div class="cont5">
+			  <h3 class="c5tit"><a href="#">EVENT&NEWS</a></h3>
+               <ul >
+                <li><a href="#"><img src="img/event1.jpg" alt="이벤트1"></a></li>
+                <li><a href="#"><img src="img/event2.jpg" alt="이벤트2"></a></li>
+                <li><a href="#"><img src="img/event3.jpg" alt="이벤트3"></a></li>
+               </ul>
+            </div><!-- cont5 end -->
+
+       <!-- 모바일 하단메뉴바 -->
+             <div class="munder">
+               <ul>
+                   <li>
+                     <a href="#header">
+                      <div class="minner"> 
+                        <i><img src="img/home.png" alt="qu1"></i>
+                        <span>홈</span>
+                      </div>   
+                    </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <div class="minner">
+                          <i><img src="img/bill1.png" alt="qu2"></i>
+                         <span>주문내역</span>
+                       </div>   
+                     </a>
+                     </li>
+                     <li>
+                      <a href="#order">
+                        <div class="minner">
+                          <i><img src="img/pizza.png" alt="qu3"></i>
+                         <span>주문하기</span>
+                       </div>   
+                     </a>
+                     </li>
+                     <li>
+                      <a href="#">
+                        <div class="minner"> 
+                          <i><img src="img/account1.png" alt="qu4"></i>
+                         <span>로그인</span>
+                       </div>   
+                     </a>
+                     </li>
+                     <li>
+                      <a href="#">
+                        <div class="minner"> 
+                          <i><img src="img/sch1.png" alt="qu5"></i>
+                         <span>주변매장</span>
+                       </div>   
+                     </a>
+                     </li>
+               </ul>
+             </div><!-- munder end -->
+       </section><!-- container end -->
+       <footer id="footer">
+            <div class="fupper">
+				<div class="finner1">
+				 <ul class="fgnb">
+				   <li><a href="#">메뉴소개</a>
+					 <ul class="sub">
+					   <li><a href="#">신제품</a></li>
+					   <li><a href="#">하프앤하프</a></li>
+					   <li><a href="#">사이드디시</a></li>
+					   <li><a href="#">인기세트메뉴</a></li>
+					   <li><a href="#">마이토핑</a></li>
+					</ul>
+				   </li>
+				   <li><a href="#">이벤트제휴</a>
+					   <ul class="sub">
+					   <li><a href="#">이벤트</a></li>
+					   <li><a href="#">제휴이벤트</a></li>
+					   <li><a href="#">할인안내</a></li>
+					   <li><a href="#">멤버쉽할인</a></li>
+					</ul>
+				   </li>
+				   <li><a href="#">인재채용</a>
+					   <ul class="sub">
+					   <li><a href="#">채용공고</a></li>
+					   <li><a href="#">인재상</a></li>
+					   <li><a href="#">지원서 수정</a></li>
+					   <li><a href="#">지원서 확인</a></li>
+					</ul>
+				   </li>
+				   <li><a href="#">도미노멤버쉽</a>
+					 <ul class="sub">
+					   <li><a href="#">멤버쉽혜택</a></li>
+					   <li><a href="#">등급확인</a></li>
+					   <li><a href="#">멤버쉽가입</a></li>
+					 </ul>
+				   </li>
+				   <li><a href="#">회사소개</a>
+					   <ul class="sub">
+					   <li><a href="#">한국도미노피자</a></li>
+					   <li><a href="#">광고갤러리</a></li>
+					   <li><a href="#">사회공헌</a></li>
+					   <li><a href="#">가맹점 문의</a></li>
+					 </ul>	
+				   </li>
+				 </ul>
+				</div><!-- finner1 end -->
+          	</div><!--  fupper end -->
+			<div class="funder">
+				<div class="finner2">
+				 <ul class="flnb">
+				   <li><a href="#">이용약관</a></li>
+				   <li><a href="#">개인정보처리방침</a></li>
+				   <li><a href="#">고객센터</a></li>
+				   <li><a href="#">로그인</a></li>
+				   <li><a href="#">단체주문</a></li>
+				 </ul><!-- flnb end -->
+				 <div class="finfo">
+          <ul class="fsns">
+            <li><a href="https://www.facebook.com/dominostory/" target ="_blank" class="sns face">페이스북</a></li>
+            <li><a href="https://www.instagram.com/dominostory/" target="_blank" class="sns insta">인스타그램</a></li>
+            <li><a href="https://www.youtube.com/user/dominostory3082" target="_blank" class="sns youtube">유튜브</a></li>
+          </ul>
+					 <ul class="address">
+					   <li>06229 서울특별시 강남구 언주로 315 청오디피케이㈜</li>
+					   <li>대표이사 : 오광현</li>
+					   <li>사업자 등록번호: 220-81-03371</li>
+					   <li>통신판매업신고: 강남 5064호</li>
+					   <li>개인정보 보호책임자 : 이명윤</li>
+					   <li> 문의 : webmaster@dominos.co.kr</li>
+					 </ul>	
+					 <p class="copy">Copyright ⓒ Domino’s Pizza. All rights reserved.</p>
+					 <p class="warning">청오디피케이㈜의 사전 서면동의 없이 도미노피자 사이트(PC, 모바일, 앱)의 일체의 정보, 콘텐츠 및 UI 등을 상업적 목적으로 전재, 전송, 스크래핑 등 무단 사용할 수 없습니다.</p>
+				 </div><!-- finfo end -->
+				  <ul class="fawards">
+				   <li><img src="img/list_awards.png" alt="수상1"></li>
+				   <li><img src="img/list_awards2.png" alt="수상2"></li>
+				   <li><img src="img/list_awards3.png" alt="수상3"></li>
+				   <li><img src="img/list_awards4.png" alt="수상4"></li>
+				   <li><img src="img/list_awards5.png" alt="수상5"></li>
+				   <li><img src="img/list_awards6.png" alt="수상6"></li>	
+				 </ul><!-- fawards end -->
+				</div><!-- finner2 end -->
+			</div>
+           </footer>
+</body>
+</html>
