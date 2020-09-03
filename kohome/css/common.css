@@ -1,0 +1,39 @@
+@charest 'utf-8';
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&display=swap');
+<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css"> .nanumsquare { font-family: 'NanumSquare', sans-serif !important;}
+
+
+
+/*reset*/
+*{margin:0;padding:0}
+body{font-family:'Noto Sans KR', sans-serif,'NanumSquare','돋음';font-size:16px;color:#222222}
+li {list-style:none}
+a{text-decoration:none;color:#222222}
+img{vertical-align:top;border:0}
+.btn{width:28px;height:28px;transition: all ease 0.3s}
+.btn:hover{transform:rotate(360deg)}
+.btn img{width:28px;height:28px}
+input {outline:none}
+fieldset{border:0}
+legend{font-size:0}
+table{border-collapse: collapse;border:0}
+
+/* Hidden */
+.blind{display:block;position:absolute;left:0;top:-9999em;}
+
+
+/* Skip */
+#skip{position:absolute; left:0; top:0; width:100%; margin:0 auto; z-index:9999;}
+#skip a{display:block; position:absolute; left:0; padding:10px; color:#fff; background:#000;}
+#skip a:link,
+#skip a:visited,
+#skip a:active{top:-10000px;}
+#skip a:hover,
+#skip a:focus{top:0;}
+
+
+
+/*layout*/
+#header {width:100%;background-color: #fff;z-index:9999;position:fixed;height:105px}
+#footer{width:100%;background-color: #333;height:200px}
+#footer .finner{width:1230px;margin:0 auto}

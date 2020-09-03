@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8" />
+	<title>주택관리공단</title>
+<!--[if lt IE 9]>
+  <script src="js/html5shiv.js"></script>
+<![endif]-->
+<!-- [if IE 7]> <link href="ie7.css" type="text/css" rel="stylesheet"/> <![endif]-->
+	<script src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/sub3.css" />
+	<script src="js/gnb.js"></script>
+	<script src="js/script.js"></script>
+
+</head>
+<body>
+	<div id="header">
+	 <h1 class="hlogo"><a href="index.html"><img src="img/hlogo.png" alt="상단로고" /></a></h1>
+	 <ul class="hlnb">
+	   <li><a href="login.html">로그인</a></li>
+	   <li><a href="#">사이트맵</a></li>
+	   <li><a href="#">담당이메일</a></li>
+	 </ul> <!-- hlnb end -->
+
+	 <div id="hWrap">
+		<div id="mheader">
+	     <div id="gnb">
+		    <nav class="glist">
+			  <ul> 
+				 <li><a href="sub1.html">공단소개</a>
+				  <ul>
+					<li><a href="sub1.html">CEO 인사말</a></li>
+					<li><a href="#">공단 연혁</a></li>
+					<li><a href="#">조직안내</a></li>
+					<li><a href="#">공단 CI</a></li>
+					<li><a href="#">인재채용</a></li>
+				  <li><a href="#">오시는길</a></li>
+				  </ul>
+				 </li><!-- 공단소개 end -->
+
+
+				 <li ><a href="sub2.html">사업분야</a>
+				  <ul>
+					<li><a href="sub2.html">주거복지</a></li>
+					<li><a href="#">임대운영</a></li>
+					<li><a href="#">주택관리</a></li>
+					<li><a href="#">시설관리</a></li>
+					<li><a href="#">유지보수/점검사업</a></li>
+					<li><a href="#">교육연구</a></li>
+				  </ul>
+				 </li><!-- 사업분야 end -->
+
+				 <li ><a href="sub3.html">입주정보</a>
+					<ul>
+						<li><a href="sub3.html">입주 및 퇴거 과정</a></li>
+						<li><a href="#">모집공고</a></li>
+						<li><a href="#">내역조회</a></li>
+					  </ul><!-- sub end -->
+				 </li><!-- 입주정보 end -->
+
+				 <li><a href="sub4.html">고객광장</a>
+				  <ul>
+					<li><a href="sub4.html">공단 새소식</a></li>
+					<li><a href="#">민원신고</a></li>
+					<li><a href="#">질의응답</a></li>
+					<li><a href="#">고객의견</a></li>
+					<li><a href="#">입찰정보</a></li>
+					<li><a href="#">고객서비스헌장</a></li>
+					<li><a href="#">아이디어 공모</a></li>
+				  </ul>
+				 </li><!-- 고객광장 end -->
+				 <li><a href="sub5.html">정보공개</a>
+				  <ul>
+					<li><a href="sub5.html">제도안내</a></li>
+					<li><a href="#">정보공개청구</a></li>
+					<li><a href="#">정보목록</a></li>
+					<li><a href="#">사전정보공개</a></li>
+					<li><a href="#">자료실</a></li>
+					<li><a href="#">공공데이터개방</a></li>
+				  </ul>
+				 </li> <!-- 정보공개 end -->
+			  </ul> 
+			 </nav>
+			 </div><!-- gnb end -->
+		</div><!-- mheader end -->
+ </div><!-- hwrap end -->
+
+	 <p class="schbtn"><a href="#"><img src="img/search.png" alt="검색" /></a></p>
+	 <div class="search_form">
+		<strong class="blind">통합검색</strong>
+		<div class="layout">
+			<div class="cell">
+				<div class="elem">
+					<p><strong>통합검색</strong><span>주택관리공단 사이트 방문을 환영합니다!</span></p>
+					<div class="form">
+						<form target="_blank" action="/search/search.do">
+							<label for="search_txt" class="blind">검색어</label>
+							<input type="text" name="kw" id="search_txt" placeholder="검색어를 입력하세요." title="검색어를 입력하세요." />
+							<input type="submit" value="검색" />
+						</form>
+						</div><!-- elem end -->
+					</div><!-- cell end -->
+				</div><!-- layout end -->
+
+		</div>
+		<a href="#" class="btn_close">닫기</a>
+	</div><!-- search_form end -->
+			<script>
+	//search
+		$('.schbtn').click(function(){
+		 $('.search_form').css('display','block');
+
+		});
+		$('.btn_close').click(function(){
+		 $('.search_form').css('display','none');
+
+		});
+		
+		//search end
+	</script>
+	</div> <!-- header end -->
+	
+	<div id="visual">
+	  <img src="img/sub2_vis.jpg" alt="서브비쥬얼2">
+	</div><!-- visual end -->
+	
+	
+	
+
+	  <div id="container">
+	    <nav class="pagenav">
+			<ul>
+			<li><a href="index.html">홈</a></li>
+			<li><a href="sub3.html">입주정보</a></li>
+			<li><a href="sub3.html">입주 및 퇴거 과정</a></li>
+			</ul>  
+	   </nav> <!-- pagenav end -->
+	  <div class="left">
+
+		 
+	  <div id='cssmenu'>
+		<ul>
+			<li class='active'><a href='#'><span>입주 및 퇴거 과정</span></a></li>
+			<li class='has-sub'><a href='#'><span>모집공고</span></a>
+			<ul>
+				<li><a href='#'><span>예비입주자모집</span></a></li>
+				<li class='last'><a href='#'><span>임대상가모집공고</span></a></li>
+			 </ul>
+			</li> 
+			<li class='has-sub'><a href='#'><span>내역조회</span></a>
+				<ul>
+					<li><a href='#'><span>수납내역조회</span></a></li>
+					<li><a href='#'><span>관리비고지내역조회</span></a></li>
+					<li class='last'><a href='#'><span>예비입주자조회</span></a></li>
+				</ul>
+			</li>			
+	</ul>
+	</div><!-- cssmenu end -->
+<script>
+( function( $ ) {
+$( document ).ready(function() {
+$('#cssmenu > ul > li > a').click(function() {
+  $('#cssmenu li').removeClass('active');
+  $(this).closest('li').addClass('active');	
+  var checkElement = $(this).next();
+  if((checkElement.is('ul')) && (checkElement.is(':visible'))) {
+    $(this).closest('li').removeClass('active');
+    checkElement.slideUp('normal');
+  }
+  if((checkElement.is('ul')) && (!checkElement.is(':visible'))) {
+    $('#cssmenu ul ul:visible').slideUp('normal');
+    checkElement.slideDown('normal');
+  }
+  if($(this).closest('li').find('ul').children().length == 0) {
+    return true;
+  } else {
+    return false;	
+  }		
+});
+});
+} )( jQuery );
+</script>
+	  </div> <!-- left end -->
+	  <div class="right">
+	   <div class="tit">
+			<h3>입주 및 퇴거과정</h3>
+			<ul>
+				<li><a href="#"><img src="img/share.png" alt="공유"></a></li>
+				<li><a href="#"><img src="img/print.png" alt="출력"></a></li>
+			</ul>
+	   </div>
+	   <hr>
+		<div class="info"><img src="img/img_info.gif" alt="입주 및 퇴거과정"></div>
+		<div class="satis">
+			<!-- 만족도 평가 start -->
+			<div class="below">
+				 <ul>
+				  <li>담당부서 : 주거복지실</li>
+				  <li>☎ : 1670-2727</li>
+				  <li><i class="far fa-clock"></i> 최근 수정일 : 2020-07-18</li>
+				 </ul>
+			 </div><!-- below -->
+			 <div class="under">
+			  <p class="un_tit">이 페이지에서 제공하는 정보에 대하여 만족하십니까?</p>
+					  <form>
+				
+				<fieldset>
+					<legend>만족도조사</legend>
+					<input type="radio" value="5" name="satis" id="r1">
+					<label for="r1">매우만족</label>
+
+					<input type="radio" value="4" name="satis" id="r2">
+					<label for="r2" >만족</label>
+
+					<input type="radio" value="3" name="satis" id="r3">
+					<label for="r3" >보통</label>
+
+					<input type="radio" value="2" 
+					name="satis" id="r4">
+					<label for="r4" >불만족</label>
+
+					<input type="radio" value="1" name="satis" id="r5">
+					<label for="r5" >매우불만족</label>
+
+					<input class="sch" type="text" placeholder="여러분의 의견을 남겨주세요" >
+					<input class="schBtn" type="submit" value="제출">
+
+				</fieldset>
+			
+					
+			  </form>
+			 </div><!-- under -->
+		</div><!-- satis end -->
+	  </div> <!-- right end -->
+	</div><!-- container end -->
+	
+<div id="footer">
+	<div class="finner">
+	  <h1 class="flogo"><img src="img/flogo.png" alt="하단로고"></h1>
+	  <ul class="flnb">
+	   <li><a href="#">개인정보처리방침</a></li>
+	   <li><a href="#">이메일수집거부</a></li>
+	   <li><a href="#">영상정보처리기기 설치운영</a></li>
+	   <li><a href="#">전현직 임직원 전용</a></li>
+	  </ul><!-- flnb end -->
+	  <address class="fadd">
+	  52852 경상남도 진주시 사들로 137 대표:임성규 | TEL:1670-2727<br>
+	  COPYRIGHT(C) KOREA HOUSING MANAGEMENT CO_LTD.	  ALL RIGHTS RESERVED. MAIL TO WEBMASTER
+	  </address>
+	  <select name="site1" id="site1">
+	   <option value="">관련기관사이트</option>
+	   <option value="국토교통부">국토교통부</option>
+	   <option value="한국토지주택공사">한국토지주택공사</option>
+	   <option value="대한민국국회">대한민국국회</option>
+	   <option value="법제처">법제처</option>
+	   <option value=" 보건복지부">보건복지부</option>	  
+	  </select>  
+	  <p class="mark"><img src="img/wa_mark.png" alt="웹접근성인증마크" /></p>
+
+	<div class="top">
+	<a href="#" style="color:white"><i class="fas fa-chevron-up fa-2x"></i></a>
+	</div>
+	  </div><!-- finner end -->
+	</div><!-- footer end -->
+
+</body>
+</html>

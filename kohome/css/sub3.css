@@ -1,0 +1,87 @@
+@charest 'utf-8';
+@import url(subcommon.css);
+
+
+/*container*/
+
+    #container {width:1230px;margin:0 auto;position: absolute;top:-60px:left:0;position:relative}
+    #container  {margin-top:-60px}
+    #container:after {clear:both;content:'';padding:0;display:block}
+    #container  .pagenav {width:1230px;margin:0 auto;background-color: #0054a6;height:60px;
+        display:block;z-index:90;margin-top:-60px:left:0;}
+    #container .pagenav  ul {background-color: #0054a6}
+    #container  .pagenav  ul:after {content:'';width:300px;height:60px;background: #0054a6;}
+    #container .pagenav  ul li {display:inline-block;position:relative;background-color: #0054a6;}
+    #container .pagenav  ul > li > a {text-align:center;line-height:60px;color:#fff;font-size:18px;}
+    #container .pagenav  ul li:first-child  a{position:absolute;height:60px;width:60px;left:0;top:-19px;font-size:0;background: url(../img/home.png) no-repeat 50% 50%;background-size: 30px 30px ;background-color:#e8feff8a;} 
+    #container .pagenav  ul li:after {content:'';padding:0 15px;color:#fff;width:10px;background: url(../img/p_right.png)no-repeat 50% 50%;background-size:15px 15px}
+    #container .pagenav  ul li:first-child:after {content:'';background:none;margin:0 45px 0 0}
+    #container .pagenav  ul li:last-child:after {content:'';background:none;}
+
+    
+   
+   /*아코디언메뉴*/
+  		#container .left {float:left;width:280px;margin-top:50px;}
+		#container .left  #cssmenu,
+		#cssmenu ul,
+		#cssmenu li,
+		#cssmenu a {  margin: 0;  padding: 0;  border: 0;  list-style: none;  font-weight: normal;
+		text-decoration: none;  line-height: 1;  font-family: 'Noto Sans KR', sans-serif;  font-size: 14px;
+		position: relative;} 
+
+		#cssmenu a {  line-height: 1.3;}
+
+		#cssmenu {  width: 250px;}
+
+		#cssmenu > ul > li {  margin: 0 0 2px 0;}
+		#cssmenu > ul > li:last-child {  margin: 0;}
+		#cssmenu > ul > li > a {  font-size: 18px;  display: block;  color: #222;  ;border-bottom:1px solid #ccc;}
+		#cssmenu > ul > li > a > span { display: block; padding: 6px 10px;}
+
+		#cssmenu > ul > li > a:hover {  text-decoration: none;}
+
+		#cssmenu > ul > li.active {  border-bottom: none;}
+
+		#cssmenu > ul > li.active > a {  color: #0054a6;  border-bottom:1px solid #0054a6;}
+		#cssmenu > ul > li.active > a span {  border-bottom: 1px solid #0054a6;}
+		#cssmenu > ul > li.has-sub > a span {  background: url(../img/plus.png) 98% center no-repeat; background-size:15px 15px}
+		#cssmenu > ul > li.has-sub.active > a span {  background: url(../img/minus.png) 98% center no-repeat;background-size:15px 15px}
+		#cssmenu > ul > li.has-sub.active > ul > li:first-child a{color: #0054a6; }
+
+		/* Sub menu */
+
+		#cssmenu ul ul {  padding: 5px 12px;  display: none;  border-bottom:1px solid #ccc;}
+		#cssmenu ul ul li {  padding: 10px 0;  list-style:square;  text-indent:20px}
+		#cssmenu ul ul a {  display: block;  color: #000;  font-size: 14px;}
+		#cssmenu ul ul a:hover,
+		#cssmenu ul ul a:focus{  color: #0054a6;}
+
+
+
+    #container .right {width:920px;float:right;margin-top:45px;}
+    #container .right .tit {;position:relative;margin:20px 0}
+    #container .right .tit h3 {color:#222;font-size:28px;width:500px}
+    #container .right .tit ul {position:absolute;right:10px; top: 5px;}
+    #container .right .tit ul li {float:left;padding:0 8px}
+    #container .right .tit a {display:block;width:25px;height:25px}
+    #container .right .tit a img {width:100%;height:100%}
+	#container .right .tit:after {content:'';display:block;clear:both}
+	#container .right hr {margin-bottom:3%}
+
+    #container .right .satis {font-size:15px;border:1px solid #e1e1e1;width:100%;height:150px;margin:50px 0}
+	#container .right .satis .below {width:100%;height:49px;border-top:2px solid #000;position:relative}
+	#container .right .satis .below ul {margin-left:30px;color:#555}
+	#container .right .satis .below ul li{float:left;line-height:49px}
+	#container .right .satis .below ul li:first-child:after {content:'|';padding:0 10px}
+	#container .right .satis .below ul li:last-child{float:right;margin-right:10px}
+	#container .right .satis .under {height:100px;clear:both;background-color: #dfecf2}
+	#container .right .satis .under p{padding:15px 30px 5px}
+	#container .right .satis .under form{padding:5px 29px}
+	#container .right .satis .under form input {padding:0 5px;font-size:}
+	#container .right .satis .under form .sch{float:right;width:300px;height:25px;position:absolute;right:100px}
+	#container .right .satis .under form .schBtn {float:right;width:50px;height:30px;border:0;background-color: #0054a6;
+	color:#fff;line-height:25px;position:absolute;right:50px}
+	/*수정*/
+   #container .right .info {margin-top:30px;height:600px;width:800px;margin:0 auto;margin-bottom:10%}
+   #container .right .info img {;width:100%;vertical-align:middle;padding-top:50px}
+   
