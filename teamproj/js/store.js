@@ -1,4 +1,5 @@
-var pageNamePattern = 'store_'; // define the pattern of the html page name (http://www....../HtmlPage1.html)
+
+	var pageNamePattern = 'store_'; // define the pattern of the html page name (http://www....../HtmlPage1.html)
        var firstPage = 1, lastPage = 4; // initialise the starting and ending page
 
        $(function () {
@@ -34,3 +35,5 @@ var pageNamePattern = 'store_'; // define the pattern of the html page name (htt
                current = firstPage;
            return current;
        }
+
+

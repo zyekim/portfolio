@@ -1,74 +1,3 @@
-/* //gnb 클릭 
-$(function(){
-$('.nav').css({
-'margin-right':'-400px','opacity':'0'},500,'linear').removeClass('on');
-$('.gnb').click(function(){
-if($('.nav').hasClass('on')){$('.nav').animate({'margin-right':'-400px','opacity':'0'},500,'linear').removeClass('on');}
-else{$('.nav').animate({'margin-right':'0','opacity':'1'},500,'linear').addClass('on');}
-});
-}); */
-
-// header 
-$(function(){
-$('.tmenu').click(function(){
-		$('.main-nav').fadeToggle(600);	
-	});
-	$('.menuClose').on('click',function(){
-		$('.main-nav').hide();
-	});
-});
-
-$(function(){
-
-	$('.search').click(function(){
-
-		$('.searchbox').fadeToggle(600);	
-
-	});
-
- 
-
-	$('.Close').on('click',function(){
-
-		$('.searchbox').hide();
-
-	});
-
- 
-
-	//버튼 색 제거,추가
-
-	$('.tab_menu_btn').on('click',function(){
-
-		$('.tab_menu_btn').removeClass('on');
-
-		$(this).addClass('on')
-
-	});
-
-	
-
-	//1번 컨텐츠
-
-	$('.tab_menu_btn1').on('click',function(){
-
-		$('.tab_box').hide();
-
-		$('.tab_box1').show();
-
-	});
-
-	//2번 컨텐츠
-
-	$('.tab_menu_btn2').on('click',function(){
-
-		$('.tab_box').hide();
-
-		$('.tab_box2').show();
-
-	});
-})
-	
 
 
 //하단부 클릭 toggle
@@ -106,6 +35,15 @@ $('#control a').click(function(){
 
 
 $('#control a').eq(0).click(); //시작이미지 1번
+
+	
+	 $('.bxslider3').bxSlider({
+  		 minSlides:1,
+  		 pager:false,
+  		 slideWidth:300,
+		 moveSlides:1
+  		});
+
 
 });
 
