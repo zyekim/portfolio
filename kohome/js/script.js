@@ -1,3 +1,4 @@
+'use strict';
 $(document).ready(function(){
 		$('.vslider').bxSlider({
 			mode: 'horizontal',//vertical은 수직으로 올라오는 것
