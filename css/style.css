@@ -38,10 +38,7 @@
 	
 	/*s1*/ 
 	  .s1 #typing {font-size:6.3rem;color:#fff}
-	  .s1 .gitIcon {position:absolute;left:50%;transform:translateX(-50%);z-index:80;width:5rem;height:5rem;
-	background-color: #fff;border-radius:4rem;}
-	.s1 .gitIcon::before {
-		content: "\f09b";font-size:4rem;line-height:5rem;font-family:Font Awesome\ 5 Brands;}
+	  
 	  /*scroll animation*/
 		.scrollbtn {position:absolute;left:50%;bottom:5rem;transform:translateX(-50%);
 		display:flex;flex-direction:column;aligns-item:center}
@@ -95,8 +92,12 @@
 	   .s2 #skill #txtblock .hello strong{text-indent:0;font-weight:700;font-size:4.6rem;color:#222;letter-spacing:.2rem;color:#404040}
 	   .s2 #skill #txtblock h2 {margin-top:10rem}
 	   .s2 #skill #txtblock span {font-size:1.3rem;font-weight:700;color:#444}
+	   .s2 #skill #txtblock .gitIcon {width:4rem;height:4rem;
+		background-color: #fff;border-radius:4rem;margin-top:2rem;display:block;opacity: .8;transition:ease-in .4s}
+	   .s2 #skill #txtblock .gitIcon::before {
+			content: "\f09b";font-size:4rem;line-height:4rem;font-family:Font Awesome\ 5 Brands;}
+	   .s2 #skill #txtblock .gitIcon:hover {opacity:1;color:rgba(103,228,175,.83);}
 	   .s2 #skill #design{border:.1rem solid #e1e1e1;padding:3.2rem;border-left:0}
-
 	   .s2 #skill .skill_detail{position:relative;margin-bottom:4rem}
 	   .s2 #skill .skill_detail:after{content:'';width:105%;height:.1rem;background: #ccc;position:absolute;left:-2rem;bottom:-1rem}
 	   .s2 #skill .skill_detail li {padding:.3rem 0;font-size:1.7rem;color:#555}	     
