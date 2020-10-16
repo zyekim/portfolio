@@ -5,46 +5,51 @@
 
 /*header*/
     #header{display:flex;justify-content: space-between;align-items: center;position:fixed;top:0;	left:0;		z-index: 70;	width: 100%;
-        	margin:0;	background:rgba(250,250,250,0);	transition:ease 0.4s	;color:#fff;padding:10px 0}
+        	margin:0;	background:rgba(250,250,250,0);	transition:ease 0.4s	;color:#fff;padding:1rem 0}
     #header:hover {background:rgba(250,250,250,0.80);}
-    #header .logo {margin-left:40px;}
-    #header #menu {display:flex;margin-right:40px}
-    #header #menu li{font-size:1.9rem;padding:8px 12px}
-    #header #menu li.active{background:#666;background: rgba(0,0,0, 0.5);border-bottom:3px solid #ffff66;color: #e1e1e1;}
+    #header .logo {margin-left:4rem;}
+    #header #menu {display:flex;margin-right:4rem}
+    #header #menu li{font-size:1.9rem;padding:.8rem 1.2rem}
+    #header #menu li.active{background:#666;background: rgba(0,0,0, 0.5);border-bottom:.3rem solid #ffff66;color: #e1e1e1;}
     #header #menu li a{	text-decoration:none;color: #fff;}
 
     #header #menu li.active a:hover{color: #000;}
     #header #menu li:hover{	background: rgba(255,255,255, 0.8);}
     #header #menu li a,
-    #header #menu li.active a{padding: 9px 18px;display:block;} 
+    #header #menu li.active a{padding: .9rem 1.8rem;display:block;} 
     #header #menu li.active a{color: #fff;}
 
 
 
   /*배경색상*/
-    .s1{background: url(../img/main.png) no-repeat center 20%;background-size: 1400px 523px;background-color: #151515;font-family: 'Do Hyeon', sans-serif;text-align:center;}
+    .s1{background: url(../img/main.png) no-repeat center 20%;background-size: 140rem 52.3rem;background-color: #151515;font-family: 'Do Hyeon', sans-serif;text-align:center;}
     .s2{background: #151515}
     .s3{background: #ff9192;position:relative}
     .s4{background: #6dd4a8;position:relative}
     .s5{background: #f0b969;position:relative}
     .s6{background: #54de7d;position:relative}
 	.s7{background: #151515;position:relative}
-	
-
-  /*s1*/   
-    
-    .s1 #typing {font-size:6.3rem;color:#fff}
+	 
+    /*H1 of each section*/
     .s1 h1 {color:#d5d5d5;font-size:2.8rem}
     .s2 h1{color:#fff}
-    .s3 h1, .s4 h1 {color:#fff;text-align:center}
+	.s3 h1, .s4 h1 {color:#fff;text-align:center}
+	
+	
+	/*s1*/ 
+	  .s1 #typing {font-size:6.3rem;color:#fff}
+	  .s1 .gitIcon {position:absolute;left:50%;transform:translateX(-50%);z-index:80;width:5rem;height:5rem;
+	background-color: #fff;border-radius:4rem;}
+	.s1 .gitIcon::before {
+		content: "\f09b";font-size:4rem;line-height:5rem;font-family:Font Awesome\ 5 Brands;}
 	  /*scroll animation*/
 		.scrollbtn {position:absolute;left:50%;bottom:5rem;transform:translateX(-50%);
 		display:flex;flex-direction:column;aligns-item:center}
-		.mouse{width:3rem;height:5rem;border:2px solid #e1e1e1;border-radius:2rem;margin-bottom:.8rem;display:flex;}
+		.mouse{width:3rem;height:5rem;border:.2rem solid #e1e1e1;border-radius:2rem;margin-bottom:.8rem;display:flex;}
 		.mouse span {width:1rem;height:1rem;background-color: #e1e1e1;display:block;border-radius:100%;margin:auto;
 		animation:move-wheel 1.3s linear infinite}
 
-		.arrow span {width:1rem;height:1rem;border:2px solid transparent;border-right-color:#e1e1e1;border-bottom-color:#e1e1e1;
+		.arrow span {width:1rem;height:1rem;border:.2rem solid transparent;border-right-color:#e1e1e1;border-bottom-color:#e1e1e1;
 		display:block;transform:rotate(45deg);margin:auto;animation:arrow-down .8s alternate infinite}
 		@keyframes move-wheel{
 		 0%{
@@ -81,39 +86,39 @@
 		} 
 
     /*.s2 skill*/
-	   .s2 h1 {color:#fff;font-size:3.3rem;letter-spacing:.2rem;font-weight:700;text-align:center;color: #bebebe;margin:20px 0}
+	   .s2 h1 {color:#fff;font-size:3.3rem;letter-spacing:.2rem;font-weight:700;text-align:center;color: #bebebe;margin:2rem 0}
 	   .s2 #skill {;width:90%;margin:0 auto}
-	   .s2 #skill > div {width:33%;box-sizing:border-box;float:left;background:rgba(250,250,250,.98);height:450px; border:1px solid #e1e1e1;padding:3.2rem}
-	   .s2 #skill > div h2 {color:#222;font-size:2rem;margin-bottom:20px;font-weight:700;letter-spacing:.2rem} 
+	   .s2 #skill > div {width:33%;box-sizing:border-box;float:left;background:rgba(250,250,250,.98);height:45rem; border:.1rem solid #e1e1e1;padding:3.2rem}
+	   .s2 #skill > div h2 {color:#222;font-size:2rem;margin-bottom:2rem;font-weight:700;letter-spacing:.2rem} 
 	   .s2 #skill #txtblock {border-right:0;font-size:1.6rem;color:#666;letter-spacing:.2rem;margin-bottom:1%}
 	   .s2 #skill #txtblock .hello {text-indent:.2rem;font-weight:300;font-size:1.5rem}
 	   .s2 #skill #txtblock .hello strong{text-indent:0;font-weight:700;font-size:4.6rem;color:#222;letter-spacing:.2rem;color:#404040}
 	   .s2 #skill #txtblock h2 {margin-top:10rem}
 	   .s2 #skill #txtblock span {font-size:1.3rem;font-weight:700;color:#444}
-	   .s2 #skill #design{border:1px solid #e1e1e1;padding:3.2rem;border-left:0}
+	   .s2 #skill #design{border:.1rem solid #e1e1e1;padding:3.2rem;border-left:0}
 
-	   .s2 #skill .skill_detail{position:relative;margin-bottom:40px}
-	   .s2 #skill .skill_detail:after{content:'';width:105%;height:1px;background: #ccc;position:absolute;left:-2rem;bottom:-1rem}
-	   .s2 #skill .skill_detail li {padding:3px 0;font-size:1.7rem;color:#555}	     
+	   .s2 #skill .skill_detail{position:relative;margin-bottom:4rem}
+	   .s2 #skill .skill_detail:after{content:'';width:105%;height:.1rem;background: #ccc;position:absolute;left:-2rem;bottom:-1rem}
+	   .s2 #skill .skill_detail li {padding:.3rem 0;font-size:1.7rem;color:#555}	     
 	   
 	    
-	   .s2 #skill .pro{;overflow: hidden;display:flex;flex-direction: row;justify-content: space-between;margin:5px}
+	   .s2 #skill .pro{;overflow: hidden;display:flex;flex-direction: row;justify-content: space-between;margin:.5rem}
 	   .s2 #skill .pro .subject{font-size:1.7rem;display:flex;height: 3rem;width: 18%;line-height:3rem;margin-right:3%;color:#222}
-	   .s2 #skill .pro .progress{display:flex;width:55%;height: 15px;margin-top:4px;border: 1px solid #ccc;position: relative;}
+	   .s2 #skill .pro .progress{display:flex;width:55%;height: 1.5rem;margin-top:.4rem;border: .1rem solid #ccc;position: relative;}
 	   .s2 #skill .pro .progress .bar{display: block;position: absolute;left:0;top:.1rem;height:1.3rem;width: auto;background:rgba(103,228,175,.83);}
 	   .s2 #skill .pro .bar_txt{height: 2rem;line-height:2.4rem;font-size:1.5rem;color:#222;margin-left:-3%;}
 	   .s2 #skill .pro .bar_txt + span {height:2rem;margin-left:-8%;font-size:1.5rem;color:#222;line-height:2.4rem;}
 
   	/*text box*/
-		.txt_bg {width:40.8%;height:calc(90vh);background-color: rgba(250,250,250,0.95);position:absolute;left:40px;top:100px}
-		.txt_bg .detail {position:absolute;right:50px;bottom:17.89%;width:400px;height:450px;text-align: justify;color:#252525;font-size:1.5rem}
+		.txt_bg {width:40.8%;height:calc(90vh);background-color: rgba(250,250,250,0.95);position:absolute;left:4rem;top:10rem}
+		.txt_bg .detail {position:absolute;right:5rem;bottom:17.89%;width:40rem;height:45rem;text-align: justify;color:#252525;font-size:1.5rem}
 		.txt_bg .detail .num {font-size:1.4rem}
 		.txt_bg .detail .tit {text-align: justify;color:#252525;font-weight:800;font-size:5.5rem}
 		.txt_bg .detail .subtit {font-size:2.9rem;font-weight:600}
 		.txt_bg .detail .info {margin-top:3%;line-height:3rem}
 		.txt_bg .detail .info strong{font-weight: normal;font-size:1.7rem}
-		.txt_bg .detail .linkbtn {margin-top:26px;width:100%;}
-		.txt_bg .detail .linkbtn li {float:left;width:48%;text-align:center;height:40px;line-height: 4rem;border:1px solid #303030;margin:5px 0}
+		.txt_bg .detail .linkbtn {margin-top:2.6rem;width:100%;}
+		.txt_bg .detail .linkbtn li {float:left;width:48%;text-align:center;height:4rem;line-height: 4rem;border:.1rem solid #303030;margin:.5rem 0}
 		.txt_bg .detail .linkbtn li:nth-child(odd){margin-right:2%}
 		.txt_bg .detail .linkbtn li  a{display:block;transition:linear 0.3s}
 		.txt_bg .detail .linkbtn li  a:hover{background-color: #000;color:#fff}
@@ -122,23 +127,23 @@
 	/*img block*/
 	   .imgblock img{position: absolute;
 		right: 7%;
-		top: 50%;max-width: 800px;
+		top: 50%;max-width: 80rem;
 		width: 45%;
-		min-width: 250px;
+		min-width: 25rem;
 		transform: translate(0, -45%);
-		box-shadow: 30px 40px 40px rgba(0, 0, 0, 0.6);}
+		box-shadow: 3rem 4rem 4rem rgba(0, 0, 0, 0.6);}
 
     /*s5*/
 		.s5  .txt_bg .detail .tit  {font-size:4.4rem}
 
    /*s6*/
 		
-		.s6 .more_port {width:90%;margin:20px auto} 
+		.s6 .more_port {width:90%;margin:2rem auto} 
 		.s6 .more_port h1 {text-align:center;font-size:3.3rem;font-weight:700;margin-bottom:2%}
-		.s6 .more_port .hover {width:300px;height:450px;float:left;width:23%;margin:10px;
+		.s6 .more_port .hover {width:30rem;height:45rem;float:left;width:23%;margin:1rem;
 		transition:all ease 0.5s;position:relative; overflow: hidden;background-color: #ff9;transition: box-shadow 300ms cubic-bezier(0.41, 0.25, 0.08, 1) 0ms;
-		box-shadow: 0 27px 55px 0 rgba(0, 0, 0, 0.3), 0 17px 17px 0 rgba(0, 0, 0, 0.15);}
-		.s6 .more_port .hover:hover{box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.25), 0 2px 2px 0 rgba(0, 0, 0, 0.1);}
+		box-shadow: 0 2.7rem 5.5rem 0 rgba(0, 0, 0, 0.3), 0 1.7rem 1.7rem 0 rgba(0, 0, 0, 0.15);}
+		.s6 .more_port .hover:hover{box-shadow: 0 .6rem 1rem 0 rgba(0, 0, 0, 0.25), 0 .2rem .2rem 0 rgba(0, 0, 0, 0.1);}
 		.s6 .more_port .hover img {width:100%;height:100%;transform: scale(1);
 		transition: transform 700ms cubic-bezier(0.165, 0.84, 0.44, 1) 0ms; backface-visibility: hidden;}
 		.s6 .more_port .hover:hover img { transform: scale(1.06);
@@ -148,10 +153,10 @@
 		position:absolute; left:0;top:0 ;opacity:0;animation-name: bgout; animation-duration:400ms; transition: opacity 400ms cubic-bezier(0.39, 0.575, 0.565, 1) 0ms;}
 		.s6 .more_port .hover .desc .txtbx {width:80%; position: absolute; top: 50%; left: 50%;transform: translate3d(-50%,-50%,0););color:#fff;}
 		
-		.s6 .more_port .hover .desc .txtbx h2 {font-size:2.2rem;color:#fff;font-weight:700;padding-bottom:10px; }
+		.s6 .more_port .hover .desc .txtbx h2 {font-size:2.2rem;color:#fff;font-weight:700;padding-bottom:1rem; }
 		.s6 .more_port .hover .desc .txtbx p {font-size:1.6rem;line-height:3rem;}
-		.s6 .more_port .hover .desc .txtbx .linkbtn {padding-top:20px}
-		.s6 .more_port .hover .desc .txtbx .linkbtn li{transition:ease-in .4s;padding:10px 20px;float:left;text-align:center;font-size:1.5rem;border:1px solid #e8e8e8}
+		.s6 .more_port .hover .desc .txtbx .linkbtn {padding-top:2rem}
+		.s6 .more_port .hover .desc .txtbx .linkbtn li{transition:ease-in .4s;padding:1rem 2rem;float:left;text-align:center;font-size:1.5rem;border:.1rem solid #e8e8e8}
 		.s6 .more_port .hover .desc .txtbx .linkbtn li:first-child{margin-right:2%}
 		.s6 .more_port .hover .desc .txtbx .linkbtn li a {display:block;color:#e8e8e8}
 		.s6 .more_port .hover .desc .txtbx .linkbtn li:hover{background-color: #e8e8e8;transition:ease-in .4s}
@@ -180,19 +185,19 @@
 				transform: scale(1);
 			}
 		}
-		.s6 .more_port #work4, .s6 .more_port #work5{height:215px;}
+		.s6 .more_port #work4, .s6 .more_port #work5{height:21.5rem;}
 
    /*s7 about*/
 		
 		.s7 .contact {width:50%;margin:auto;position:relative;color:#fff}
 		.s7 .contact h1{font-weight:700;color:#e1e1e1;font-size:3.3rem;letter-spacing:.2rem}		
-		.s7 .contact div {height:350px;float:left;}
+		.s7 .contact div {height:35rem;float:left;}
 		.s7 .contact .c1{width:35%;}
-		.s7 .contact .c1 img {width:280px;height:350px}
+		.s7 .contact .c1 img {width:28rem;height:35rem}
 		.s7 .contact .c2 {color:#fff;font-size:2.2rem;position:relative;width:65%;}
 		.s7 .contact .c2 h2 {color:#ebebeb;font-weight:600;position:absolute;top:13%;left:3%;}
 		.s7 .contact .c2 h2 span {font-size:4.5rem;font-weight:normal;margin-bottom:2%;opacity:0.8}
 		.s7 .contact .c2 h2 strong {color:#f9d52b;font-size:5rem;opacity:0.7}
 		.s7 .contact .c2 ul{position:absolute;bottom:5%;left:3%}
-		.s7 .contact .c2 ul li {padding:5px 0}
+		.s7 .contact .c2 ul li {padding:.5rem 0}
 

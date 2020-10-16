@@ -103,7 +103,7 @@
         #container .right .cont4  .noticelist tbody tr > td {margin:0;padding:0}
         #container .right .cont4  .noticelist tbody tr > td:nth-child(2) {text-align:left;text-indent:30px:}
         #container .right .cont4  .noticelist tbody tr > .file{font-size:0;color:transparent;cursor: pointer;}
-        #container .right .cont4  .noticelist tbody tr > .file:before{content: "\f56d";color:#0054a6;;font-size:20px;font-family: 'Font Awesome\ 5 free';font-weight:900}
+        #container .right .cont4  .noticelist tbody tr > .file:before{content: "\f56d";color:#0054a6;font-size:20px;font-family: 'Font Awesome\ 5 free';font-weight:900}
         #container .right .cont4  .noticelist tbody .gongji td:first-child{font-weight:600}
         #container .right .cont4  .noticelist tr a{display:block;text-indent: 10px;}
         #container .right .cont4  .noticelist tr a:hover{text-decoration: underline;}
